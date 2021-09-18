@@ -48,7 +48,6 @@ require_once("TrueWallet.class.php");
 Simple initialization with Login Credentials/Access Token.
 
 ```php
-$tw = new TrueWallet("[USERNAME]", "[PASSWORD]"); // Login Credentials
 $tw = new TrueWallet("[ACCESS_TOKEN]"); // Access Token
 
 ```
